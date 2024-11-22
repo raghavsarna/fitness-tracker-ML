@@ -1,4 +1,4 @@
-# fitness-tracker-ML
+# BarbellReps-MLQS
 
 This project provides a comprehensive framework for processing, visualizing, and modeling accelerometer and gyroscope data from fitness trackers. The goal is to create machine learning models that can classify barbell exercises and count repetitions.
 
