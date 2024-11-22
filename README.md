@@ -11,10 +11,12 @@ This project provides a comprehensive framework for processing, visualizing, and
 5. [Feature Engineering](#feature-engineering)
 6. [Predictive Modeling](#predictive-modeling)
 7. [Repetition Counting Algorithm](#repetition-counting-algorithm)
-8. [Interesting Techniques Used](#interesting-techniques-used)
-9. [Libraries and Technologies](#libraries-and-technologies)
-10. [Project Structure](#project-structure)
-11. [External Libraries](#external-libraries)
+8. [Final Results](#final-results)
+9. [Interesting Techniques Used](#interesting-techniques-used)
+10. [Libraries and Technologies](#libraries-and-technologies)
+11. [Project Structure](#project-structure)
+12. [Key Directories](#key-directories)
+13. [External Libraries](#external-libraries)
 
 ## Introduction
 
@@ -52,10 +54,18 @@ Multiple machine learning models are trained and evaluated:
 - **Support Vector Machines (SVMs)**: Models that find the optimal hyperplane for classification tasks.
 - **Random Forest**: An ensemble learning method using multiple decision trees.
 - **Neural Networks**: Models inspired by the human brain structure, capable of capturing complex patterns.
+- **K-Nearest Neighbors (KNN)**: A non-parametric method used for classification based on feature similarity.
+- **Decision Trees**: Models that make decisions based on feature values, forming a tree-like structure.
 
 ## Repetition Counting Algorithm
 
 A custom algorithm is developed to accurately count exercise repetitions. This involves analyzing the processed sensor data to detect cycles corresponding to individual repetitions.
+
+## Final Results
+
+The final results of the classification models are presented using a **confusion matrix**, which visually represents the performance by showing the correctly and incorrectly classified instances for each exercise category. This allows for a comprehensive evaluation of the model's accuracy and the identification of any misclassifications.
+
+![Confusion Matrix](confusion_matrix.png)
 
 ## Interesting Techniques Used
 
@@ -79,6 +89,7 @@ A custom algorithm is developed to accurately count exercise repetitions. This i
 
 ```plaintext
 ├── README.md               # Project documentation
+├── confusion_matrix.png    # Confusion matrix image
 ├── data
 │   ├── external            # Data from third-party sources
 │   ├── interim             # Intermediate transformed data
